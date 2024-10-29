@@ -1,0 +1,13 @@
+.about{
+    border: 1px solid transparent;
+    border-radius:0 0 10% 0;
+    background: url('../../../public/images/heroImg1.webp');
+    background-repeat: no-repeat;
+    padding: 215px;  
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text{
+    margin-inline: 15px;
+}
