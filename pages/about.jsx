@@ -11,7 +11,7 @@ const about = ()=>{
         <Navbar />
         <div className="min-h-[550px] mt-0">
         <div className="min-h-[550px] flex justify-center items-center backdrop-blur-xl py-12 sm:py-0 ">
-          <div data-aos="slide-up" className="container">
+          <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
               {/* Image section */}
               <div className={abouts.about}></div>
