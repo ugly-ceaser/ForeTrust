@@ -16,7 +16,7 @@ const Counter = () => {
         </div>
         <div>
             <h1 className='text-6xl font-bold text-white'><CountUp start={0} end={55} duration={2.7}></CountUp>%</h1>
-            <p >Progress Rate</p>
+            <p className='py-2 font-medium'>Progress Rate</p>
         </div>
         <div>
             <h1 className='text-6xl font-bold text-white'><CountUp start={0} end={5} duration={2.7}></CountUp>+</h1>
