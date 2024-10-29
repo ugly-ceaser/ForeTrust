@@ -1,0 +1,42 @@
+.footer {
+  
+    color: #030000;
+    padding: 20px 0;
+    text-align: center;
+    
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text {
+    margin: 0;
+}
+
+.socialLinks {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialLinks li {
+    display: inline;
+}
+
+.socialLinks a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.socialLinks a:hover {
+    color: #1e90ff;
+}  
+
