@@ -2,7 +2,7 @@ import Navbar from '../components/Shared/navBar'
 import Footer from '../components/Shared/footer'
 import abouts from '../components/aboutpage/css/abouts.module.css'
 import Facilities from '@/components/aboutpage/properties/Facilities';
-import Button from '@/components/aboutpage/properties/Button';
+import Button from '@/components/Shared/Buttons';
 import Counter from '@/components/aboutpage/properties/Counter';
 
 const about = ()=>{
@@ -17,7 +17,7 @@ const about = ()=>{
               <div className={abouts.about}></div>
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
-                <h1 className={`${abouts.text}text-3xl sm:text-4xl font-bold`}>
+                <h1 className={`${abouts.text}text-3xl sm:text-4xl font-bold text-teal-700`}>
                  We Always Offer ...
                 </h1>
                 <p className={`${abouts.text} text-sm text-gray-500 tracking-wide leading-5`}>
