@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Form = () => {
+const AcademyForm = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50">
       <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 border border-gray-200">
         <form className="space-y-4">
           {/* Name */}
           <div>
-            <label htmlFor="name" className="block text-sm font-semibold text-gray-700">Name</label>
+            <label htmlFor="name" className="block text-sm font-semibold text-gray-700 text-left">Name</label>
             <input
               type="text"
               id="name"
@@ -19,7 +19,7 @@ const Form = () => {
 
           {/* Email */}
           <div>
-            <label htmlFor="email" className="block text-sm font-semibold text-gray-700">Email</label>
+            <label htmlFor="email" className="block text-sm font-semibold text-gray-700 text-left">Email</label>
             <input
               type="email"
               id="email"
@@ -31,7 +31,7 @@ const Form = () => {
 
           {/* Phone Number */}
           <div>
-            <label htmlFor="phone" className="block text-sm font-semibold text-gray-700">Phone Number</label>
+            <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 text-left">Phone Number</label>
             <input
               type="tel"
               id="phone"
@@ -42,7 +42,7 @@ const Form = () => {
 
           {/* Type of Request */}
           <div>
-            <label htmlFor="requestType" className="block text-sm font-semibold text-gray-700">Type of Request</label>
+            <label htmlFor="requestType" className="block text-sm font-semibold text-gray-700 text-left">Type of Request</label>
             <select
               id="requestType"
               className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-teal-200"
@@ -57,7 +57,7 @@ const Form = () => {
 
           {/* What Can I Help You With */}
           <div>
-            <label htmlFor="help" className="block text-sm font-semibold text-gray-700">What Can I Help You With?</label>
+            <label htmlFor="help" className="block text-sm font-semibold text-gray-700 text-left">What Can I Help You With?</label>
             <textarea
               id="help"
               rows="4"
@@ -75,7 +75,7 @@ const Form = () => {
               className="w-4 h-4 text-teal-600 border-gray-300 rounded focus:ring-teal-500"
               required
             />
-            <label htmlFor="privacy" className="ml-2 text-sm text-gray-600">
+            <label htmlFor="privacy" className="ml-2 text-sm text-gray-600 text-left">
               I accept the privacy policy
             </label>
           </div>
@@ -95,4 +95,4 @@ const Form = () => {
   );
 }
 
-export default Form;
+export default AcademyForm;
