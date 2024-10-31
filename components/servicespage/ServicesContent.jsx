@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Buttons';
+import Button from '../Shared/Buttons';
 
 const ServicesContent = () => {
   // the data for the services

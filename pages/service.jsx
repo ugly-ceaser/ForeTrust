@@ -13,7 +13,7 @@ const service = ()=>{
                 <div className="mx-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                     {/** text content section */}
                     <div className='flex flex-col justify-center gap-4 pt-6 sm:pt:0 text-center sm:text-left'> 
-                        <h1 className='text-teal-700 text-3xl lg:text-[3rem] mb-6 font-bold '>Our Services</h1>
+                        <h1 className='text-teal-700 text-3xl lg:text-[3rem] mb-5 font-bold mt-20 '>Our Services</h1>
                         <p className='text-sm text-gray-600'>{" "}
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam natus delectus ipsa minus cumque, cum, quod explicabo fugiat 
                             esse quibusdam ullam aut quae sit, culpa ratione nostrum nihil? Maxime, minus.
