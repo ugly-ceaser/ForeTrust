@@ -2,7 +2,7 @@ import Navbar from '../components/Shared/navBar'
 import Footer from '../components/Shared/footer'
 import abouts from '../components/aboutpage/css/abouts.module.css'
 import Facilities from '@/components/aboutpage/properties/Facilities';
-import Button from '@/components/Shared/Buttons';
+import Button from '@/components/servicespage/Buttons';
 import Counter from '@/components/aboutpage/properties/Counter';
 
 const about = ()=>{

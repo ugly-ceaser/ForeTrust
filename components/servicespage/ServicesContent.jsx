@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Buttons';
 
 const ServicesContent = () => {
-  // Sample data for services
+  // the data for the services
   const services = [
     {
       id: 1,

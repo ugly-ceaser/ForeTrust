@@ -1,5 +1,5 @@
 import React from 'react'
-import btn from '../Shared/css/btn.module.css'
+import btn from '../servicespage/css/btn.module.css'
 
 const Button = () => {
   return (

@@ -1,6 +1,6 @@
 import Navbar from '../components/Shared/navBar'
 import Footer from '../components/Shared/footer'
-import ServicesContent from '@/components/Shared/ServicesContent'
+import ServicesContent from '@/components/servicespage/ServicesContent'
 import Testmonial from '@/components/servicespage/Testmonial'
 import Services from '@/components/servicespage/Services'
 
