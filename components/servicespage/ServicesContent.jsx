@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Shared/Buttons';
 
 const ServicesContent = () => {
-  // the data for the services
+  // data for the services
   const services = [
     {
       id: 1,
@@ -10,6 +10,8 @@ const ServicesContent = () => {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
       imgSrc: '/images/about1.jpeg',
+      modalImgSrc: '/images/service1.jpg',
+      modalContent: 'Detailed information about Service One...',
     },
     {
       id: 2,
@@ -17,6 +19,8 @@ const ServicesContent = () => {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
       imgSrc: '/images/about1.jpeg',
+      modalImgSrc: '/images/about2.jpeg',
+      modalContent: 'Detailed information about Service Two... jaKLnsjkansmmzMxn  zjnzjansdkjns uiawuiafiuhweihwehe Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam natus delectus ipsa minus cumque, cum, quod explicabo fugiat esse quibusdam ullam aut quae sit, culpa ratione nostrum nihil? Maxime, minu Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum at incidunt cupiditate fuga, maxime distinctio quasi, temporibus quae, dicta magni neque labore praesentium perspiciatis alias vitae blanditiis sapiente excepturi?',
     },
     {
       id: 3,
@@ -24,6 +28,8 @@ const ServicesContent = () => {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
       imgSrc: '/images/about2.jpeg',
+      modalImgSrc: '/images/service3.jpg',
+      modalContent: 'Detailed information about Service Three...',
     },
     {
       id: 4,
@@ -31,6 +37,8 @@ const ServicesContent = () => {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
       imgSrc: '/images/about2.jpeg',
+      modalImgSrc: '/images/service4.jpg',
+      modalContent: 'Detailed information about Service Four...',
     },
   ];
 
@@ -65,7 +73,12 @@ const ServicesContent = () => {
                 {service.title}
               </h2>
               <p className="text-gray-600 mb-4">{service.description}</p>
-              <Button/>
+              <Button
+                title= {service.title}
+                imageSrc={service.modalImgSrc}
+                content={service.modalContent}
+                buttonText="Learn More"
+              />
             </div>
           </div>
         ))}

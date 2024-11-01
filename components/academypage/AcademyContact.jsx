@@ -37,7 +37,7 @@ const AcademyContact = () => {
     <a href="https://www.gps.ie/">gps trackers</a>
     </iframe>
     </div>
-        <div className="mt-1 md:mt-5 text-left">
+        <div className="mt-1 md:mt-5 text-center">
           <button
             className="w-full md:w-auto  py-2 px-4 bg-teal-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-teal-500"
           >

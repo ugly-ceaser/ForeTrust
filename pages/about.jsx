@@ -31,7 +31,12 @@ const about = ()=>{
                   option
                 </p>
                 <div>
-             <Button/>
+                <Button
+                title= "Everythig You Need To Know"
+                imageSrc="/images/about1.jpg"
+                content="welcome to foretrust a beutiful place to learn"
+                buttonText="Learn More"
+              />
               </div>
               </div>
             </div>

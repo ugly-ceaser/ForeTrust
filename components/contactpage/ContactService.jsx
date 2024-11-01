@@ -1,39 +1,49 @@
-import React from 'react'
+import React from 'react';
 import Button from '../Shared/Buttons';
 
-const ContactService = () => {
-    const services = [
-        {
-          id: 1,
-          title: 'Service One',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
-          imgSrc: '/images/about1.jpeg',
-        },
-        {
-          id: 2,
-          title: 'Service Two',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
-          imgSrc: '/images/about1.jpeg',
-        },
-        {
-          id: 3,
-          title: 'Service Three',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
-          imgSrc: '/images/about2.jpeg',
-        },
-        {
-          id: 4,
-          title: 'Service Four',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
-          imgSrc: '/images/about2.jpeg',
-        },
-      ];    
+const ServicesContent = () => {
+  // data for the services
+  const services = [
+    {
+      id: 1,
+      title: 'Service One',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
+      imgSrc: '/images/about1.jpeg',
+      modalImgSrc: '/images/service1.jpg',
+      modalContent: 'Detailed information about Service One...',
+    },
+    {
+      id: 2,
+      title: 'Service Two',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
+      imgSrc: '/images/about1.jpeg',
+      modalImgSrc: '/images/about2.jpeg',
+      modalContent: 'Detailed information about Service Two... jaKLnsjkansmmzMxn  zjnzjansdkjns uiawuiafiuhweihwehe Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam natus delectus ipsa minus cumque, cum, quod explicabo fugiat esse quibusdam ullam aut quae sit, culpa ratione nostrum nihil? Maxime, minu Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum at incidunt cupiditate fuga, maxime distinctio quasi, temporibus quae, dicta magni neque labore praesentium perspiciatis alias vitae blanditiis sapiente excepturi?',
+    },
+    {
+      id: 3,
+      title: 'Service Three',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
+      imgSrc: '/images/about2.jpeg',
+      modalImgSrc: '/images/service3.jpg',
+      modalContent: 'Detailed information about Service Three...',
+    },
+    {
+      id: 4,
+      title: 'Service Four',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
+      imgSrc: '/images/about2.jpeg',
+      modalImgSrc: '/images/service4.jpg',
+      modalContent: 'Detailed information about Service Four...',
+    },
+  ];
+
   return (
-    <div className="p-8  bg-gray-50">
+    <div className="p-8">
       {/** Title Section */}
       <div className="text-center mb-10">
         <h1 className="text-teal-700 text-3xl lg:text-[3rem] font-bold">
@@ -63,13 +73,18 @@ const ContactService = () => {
                 {service.title}
               </h2>
               <p className="text-gray-600 mb-4">{service.description}</p>
-              <Button/>
+              <Button
+                title= {service.title}
+                imageSrc={service.modalImgSrc}
+                content={service.modalContent}
+                buttonText="Learn More"
+              />
             </div>
           </div>
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactService
+export default ServicesContent;
