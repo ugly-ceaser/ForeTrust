@@ -33,10 +33,18 @@ const AcademyContact = () => {
         </div>
         
         <div className="flex justify-center items-center rounded-lg mx-auto z-10 relative w-full max-w-5xl p-5">
-    <iframe className='rounded-lg' width="900" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=10/A%20nwodo%20street,enugu+(Livia)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-    <a href="https://www.gps.ie/">gps trackers</a>
-    </iframe>
-    </div>
+    <iframe
+        className="rounded-lg"
+        width="900"
+        height="250"
+        frameBorder="0"
+        scrolling="no"
+        marginHeight="0"
+        marginWidth="0"
+        src="https://maps.google.com/maps?width=500&height=500&hl=en&q=10/A%20nwodo%20street,enugu+(Livia)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+    ></iframe>
+</div>
+
         <div className="mt-1 md:mt-5 text-center">
           <button
             className="w-full md:w-auto  py-2 px-4 bg-teal-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-teal-500"
