@@ -2,14 +2,14 @@ import React from 'react';
 
 const ContactSection = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-center items-start gap-4 px-3 sm:px-8 py-6 bg-gray-50">
+    <div className="flex flex-col justify-center items-center gap-4 px-3 sm:px-8 py-6 bg-gray-50">
       {/* Title Section */}
-      <div className="w-full sm:w-1/3 text-center sm:text-left mb-4 sm:mb-0">
-        <h2 className="text-xl sm:text-2xl font-bold text-teal-700">Find Us Here</h2>
+      <div className="w-full text-center mb-4">
+        <h2 className="text-xl text-left ml-8 sm:text-2xl font-bold text-teal-700">Find Us Here</h2>
       </div>
       
       {/* Cards Section */}
-      <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md sm:max-w-4xl mx-auto">
+      <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md sm:max-w-4xl">
         {/* Card 1: Phone Number */}
         <div className="flex-1 bg-white shadow rounded p-4 border border-gray-200 text-center">
           <h3 className="text-base sm:text-lg font-semibold text-teal-700 mb-1">Phone Number</h3>

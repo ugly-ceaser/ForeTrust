@@ -7,11 +7,11 @@ const AcademyContact = () => {
     <section className="flex flex-col md:flex-row items-start justify-center p-4 md:p-8 bg-gray-50 min-h-screen space-y-8 md:space-y-0 md:space-x-8">
       {/* Left Section - Contact Details */}
       <div className="w-full md:w-1/2 space-y-4">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl text-left mb-8 md:mb-24 font-bold text-teal-700">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl text-left md:mb-5 font-bold text-teal-700">
           Contact Us
         </h2>
         
-        <div className="bg-white shadow-lg rounded-lg p-6 md:p-8 border border-gray-200">
+        <div className="bg-white shadow-lg rounded-lg p-5 md:p-8 border border-gray-200">
           <p className="text-gray-600">
             Reach out to us for any queries, support, or feedback. We're here to help!
           </p>
@@ -31,10 +31,15 @@ const AcademyContact = () => {
             </div>
           </div>
         </div>
-
-        <div className="mt-8 md:mt-16 text-left">
+        
+        <div className="flex justify-center items-center rounded-lg mx-auto z-10 relative w-full max-w-5xl p-5">
+    <iframe className='rounded-lg' width="900" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=10/A%20nwodo%20street,enugu+(Livia)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    <a href="https://www.gps.ie/">gps trackers</a>
+    </iframe>
+    </div>
+        <div className="mt-1 md:mt-5 text-left">
           <button
-            className="w-full md:w-auto mt-6 py-2 px-4 bg-teal-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+            className="w-full md:w-auto  py-2 px-4 bg-teal-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-teal-500"
           >
             Get in Touch
           </button>
