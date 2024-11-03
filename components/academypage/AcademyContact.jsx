@@ -19,30 +19,21 @@ const AcademyContact = () => {
           <div className="mt-4 space-y-2">
             <div className="flex items-center space-x-2">
               <span className="font-semibold text-gray-800">Email:</span>
-              <a href="mailto:info@example.com" className="text-teal-600 hover:underline">info@example.com</a>
+              <a href="mailto:info@example.com" className="text-teal-600 hover:underline">info@foretrustgroup.com</a>
             </div>
             <div className="flex items-center space-x-2">
               <span className="font-semibold text-gray-800">Phone:</span>
-              <a href="tel:+1234567890" className="text-teal-600 hover:underline">+1 (234) 567-890</a>
+              <a href="tel:+1234567890" className="text-teal-600 hover:underline">+234-906-000-9485</a>
             </div>
             <div className="flex items-center space-x-2">
               <span className="font-semibold text-gray-800">Address:</span>
-              <span className="text-teal-600">123 Example St, City, Country</span>
+              <span className="text-teal-600">93A/94A, Premier Layout, Okinano</span>
             </div>
           </div>
         </div>
         
         <div className="flex justify-center items-center rounded-lg mx-auto z-10 relative w-full max-w-5xl p-5">
-    <iframe
-        className="rounded-lg"
-        width="900"
-        height="250"
-        frameBorder="0"
-        scrolling="no"
-        marginHeight="0"
-        marginWidth="0"
-        src="https://maps.google.com/maps?width=500&height=500&hl=en&q=10/A%20nwodo%20street,enugu+(Livia)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
-    ></iframe>
+        <iframe width="1000" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Foretrust%20Digital%20Consulting%20Limited,%2093A/94A,%20Premier%20Layout,%20Okinano+(ForeTrust)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 </div>
 
         <div className="mt-1 md:mt-5 text-center">

@@ -13,19 +13,19 @@ const ContactSection = () => {
         {/* Card 1: Phone Number */}
         <div className="flex-1 bg-white shadow rounded p-4 border border-gray-200 text-center">
           <h3 className="text-base sm:text-lg font-semibold text-teal-700 mb-1">Phone Number</h3>
-          <p className="text-gray-600">+123 456 7890</p>
+          <p className="text-gray-600">+234-906-000-9485</p>
         </div>
 
         {/* Card 2: Email */}
         <div className="flex-1 bg-white shadow rounded p-4 border border-gray-200 text-center">
           <h3 className="text-base sm:text-lg font-semibold text-teal-700 mb-1">Email</h3>
-          <p className="text-gray-600">contact@example.com</p>
+          <p className="text-gray-600">info@foretrustgroup.com</p>
         </div>
 
         {/* Card 3: Location */}
         <div className="flex-1 bg-white shadow rounded p-4 border border-gray-200 text-center">
           <h3 className="text-base sm:text-lg font-semibold text-teal-700 mb-1">Location</h3>
-          <p className="text-gray-600">123 Main St, Anytown, USA</p>
+          <p className="text-gray-600">93A/94A, Premier Layout, Okinano</p>
         </div>
       </div>
     </div>
