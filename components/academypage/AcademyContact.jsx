@@ -13,7 +13,7 @@ const AcademyContact = () => {
         
         <div className="bg-white shadow-lg rounded-lg p-5 md:p-8 border border-gray-200">
           <p className="text-gray-600">
-            Reach out to us for any queries, support, or feedback. We're here to help!
+            Reach out to us for any queries, support, or feedback. We&apos;re here to help!
           </p>
           
           <div className="mt-4 space-y-2">
@@ -33,12 +33,20 @@ const AcademyContact = () => {
         </div>
         
         <div className="flex justify-center items-center rounded-lg mx-auto z-10 relative w-full max-w-5xl p-5">
-        <iframe width="1000" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Foretrust%20Digital%20Consulting%20Limited,%2093A/94A,%20Premier%20Layout,%20Okinano+(ForeTrust)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-</div>
+          <iframe
+            width="1000"
+            height="250"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight="0"
+            marginWidth="0"
+            src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Foretrust%20Digital%20Consulting%20Limited,%2093A/94A,%20Premier%20Layout,%20Okinano+(ForeTrust)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
 
         <div className="mt-1 md:mt-5 text-center">
           <button
-            className="w-full md:w-auto  py-2 px-4 bg-teal-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+            className="w-full md:w-auto py-2 px-4 bg-teal-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-teal-500"
           >
             Get in Touch
           </button>
