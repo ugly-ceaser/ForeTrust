@@ -36,7 +36,6 @@ const academyPage = ()=>{
                 </div>
                 <AcademyServices/>
                 <AcademyContact/>
-                <ContactMap/>
             </div>
         </div>
         <Footer />

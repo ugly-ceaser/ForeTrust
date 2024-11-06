@@ -34,7 +34,6 @@ const service = ()=>{
             </div>
         </div>
         <Testmonial/>
-        <Services/>
         <Footer />
         </>
     )
