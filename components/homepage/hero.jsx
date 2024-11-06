@@ -16,7 +16,7 @@ const Hero = () => {
       </a>
 
       <img
-        src="/images/heroImg1.webp" // Replace with your actual image path
+        src="/images/heroImg1.webp" 
         alt="Backgrounde"
         className={hero.img1}
       />
