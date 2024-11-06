@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'build',  // Set the build directory to 'build'
+    output: 'export',  // Configure Next.js to export the app as a static site
+    distDir: 'build',  // Output directory (optional, you can keep it as 'out' if preferred)
   };
   
   export default nextConfig;
