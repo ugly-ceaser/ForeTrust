@@ -3,7 +3,7 @@ import Footer from '../components/Shared/footer'
 import Hero from '../components/homepage/hero'
 import CoreValues from '../components/homepage/coreValues'
 import Story from '../components/homepage/story'
-import Three from '@/components/homepage/three'
+import Three from '@/components/homepage/Three'
 import Gallery from '@/components/homepage/Gallery'
 
 const homePage = ()=>{
