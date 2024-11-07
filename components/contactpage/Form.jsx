@@ -2,8 +2,7 @@ import React from 'react';
 
 const Form = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
-      <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 border border-gray-200">
+      <div className="w-full max-w-md md:max-w-lg bg-white shadow-lg rounded-lg p-6 md:p-8 border border-gray-200">
         <form className="space-y-4">
           {/* Name */}
           <div>
@@ -11,7 +10,7 @@ const Form = () => {
             <input
               type="text"
               id="name"
-              className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-teal-200"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-teal-200"
               placeholder="Your Name"
               required
             />
@@ -23,7 +22,7 @@ const Form = () => {
             <input
               type="email"
               id="email"
-              className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-teal-200"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-teal-200"
               placeholder="Your Email"
               required
             />
@@ -35,7 +34,7 @@ const Form = () => {
             <input
               type="tel"
               id="phone"
-              className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-teal-200"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-teal-200"
               placeholder="Your Phone Number"
             />
           </div>
@@ -45,7 +44,7 @@ const Form = () => {
             <label htmlFor="requestType" className="block text-sm font-semibold text-gray-700">Type of Request</label>
             <select
               id="requestType"
-              className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-teal-200"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-teal-200"
               required
             >
               <option value="">Select a Request Type</option>
@@ -61,14 +60,14 @@ const Form = () => {
             <textarea
               id="help"
               rows="4"
-              className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-teal-200"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-teal-200"
               placeholder="Describe your request here..."
               required
             ></textarea>
           </div>
 
           {/* Accept Privacy Policy */}
-          <div className="flex items-center">
+          <div className="flex items-start">
             <input
               type="checkbox"
               id="privacy"
@@ -91,7 +90,7 @@ const Form = () => {
           </div>
         </form>
       </div>
-    </div>
+
   );
 }
 

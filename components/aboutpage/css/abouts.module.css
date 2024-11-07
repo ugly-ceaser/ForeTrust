@@ -3,11 +3,27 @@
     border-radius:0 0 10% 0;
     background: url('../../../public/images/heroImg1.webp');
     background-repeat: no-repeat;
-    padding: 215px;  
+    width: 550px;
+    height: 750px;
     background-size: cover;
     overflow: hidden;
 }
-
 .text{
-    margin-inline: 15px;
+    margin-bottom: 15px;
+    margin-inline: 10px ;
 }
+@media (min-width:430px) {
+    .textc{
+       text-align: center;
+    }    
+}
+.textc {
+    transition: margin 0.3s ease; 
+  }
+  
+  @media (max-width: 1010px) {
+    .textc {
+      margin-left: 0; 
+    }
+  }
+  

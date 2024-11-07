@@ -2,7 +2,7 @@ import React from 'react';
 
 const AcademyForm = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+   
       <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 border border-gray-200">
         <form className="space-y-4">
           {/* Name */}
@@ -91,7 +91,7 @@ const AcademyForm = () => {
           </div>
         </form>
       </div>
-    </div>
+
   );
 }
 
