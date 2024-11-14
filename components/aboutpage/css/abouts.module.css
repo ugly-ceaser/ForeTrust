@@ -15,6 +15,11 @@
     width: 100%; 
   }
 }
+@media(max-width:1700px){
+  .about{
+    width: 100%; 
+  }
+}
 @media (max-width: 768px) {
   .about {
     width: 100%; 
