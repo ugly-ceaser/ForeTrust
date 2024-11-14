@@ -10,6 +10,11 @@
   overflow: hidden;
 }
 
+@media(max-width:1800px){
+  .about{
+    width: 100%; 
+  }
+}
 @media (max-width: 768px) {
   .about {
     width: 100%; 
