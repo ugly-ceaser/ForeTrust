@@ -30,7 +30,7 @@ const Testimonial = () => {
                 className="absolute -top-6 -left-5 w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-teal-500 shadow-md transform transition-transform duration-200 hover:scale-105"
               />
               <div className="flex-grow pl-6 md:pl-10">
-                <h3 className="font-semibold text-teal-700 text-lg">Chidi Nwankwo</h3>
+                <h3 className="font-semibold text-teal-700 ml-2 text-lg"> Chidi Nwankwo</h3>
                 <p className="text-gray-600 text-sm mt-2 md:mt-3 leading-relaxed">
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor nulla ac nulla elementum mollis. Etiam vitae ligula vel augue facilisis volutpat.”
                 </p>

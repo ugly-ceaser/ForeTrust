@@ -1,32 +1,55 @@
-import Hero from "./css/hero.module.css";
-import React from "react";
+import React from 'react';
 
 const Story = () => {
-    return (
-        <div className={`${Hero.storyMain} flex flex-col lg:flex-row justify-center w-full p-4`}>
-            <div className="mt-8 flex flex-col items-center lg:items-start lg:w-1/2">
-                <img className={`${Hero.storyImg} w-64 lg:w-72`} src="./images/about2.jpeg" alt="image one" />
-                <img className={`${Hero.storyImg} w-64 lg:w-72 ml-0 lg:ml-28 -mt-6`} src="./images/about2.jpeg" alt="image two" />
-                <img className={`${Hero.storyImg} w-64 lg:w-72 -mt-6`} src="./images/about3.jpeg" alt="image three" />
-            </div>
-
-            <div className="lg:w-1/2 lg:pl-10 mt-6 lg:mt-0">
-                <h5 className="text-2xl font-bold">Our Story...........</h5>
-                <h3 className="text-2xl">About Fortrust Digital Consulting</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur. Vel orci blandit vivamus urna. Nunc laoreet laoreet massa at. Urna sem nam in sit sed vitae. Convallis lectus id est pretium morbi sit adipiscing. Pellentesque tellus sit enim elementum scelerisque gravida nec. Diam orci nibh ultrices eget accumsan dui luctus id auctor. Arcu leo sagittis aenean feugiat mattis porttitor eros elit risus. Lobortis non nec in amet urna. Neque donec aliquam vivamus viverra morbi. Donec orci sit amet est velit ultricies nisl lorem. Rutrum nunc natoque diam sed curabitur in donec turpis enim
-                </p>
-
-                <p>
-                    Aenean faucibus auctor sagittis ornare ac sapien. Laoreet aenean porta convallis amet pellentesque porttitor odio dui. Erat sit platea vitae in parturient egestas etiam. Ornare vitae orci maecenas adipiscing dolor facilisis habitasse mattis. Eget magna neque eget eleifend velit viverra sem praesent ultricies. Facilisi diam luctus tortor fusce parturient proin nulla. Integer mi elit amet mollis gravida sapien mollis. Tempor bibendum phasellus magna odio nisi quam non lectus nullam. Ut et duis et nibh imperdiet quis. Amet vitae quisque donec id vitae eu odio.
-                </p>
-
-                <p>
-                    Odio pharetra pretium nec purus. Praesent vel tellus non et. Fusce fusce vulputate lacus morbi pulvinar tellus. Molestie malesuada enim volutpat diam neque ut consequat. Nunc massa risus quis aliquet sem enim pellentesque sed lacus. Donec vitae turpis sit sit sit massa vulputate ultrices odio. Pharetra fringilla gravida urna nibh mattis maecenas ut habitant.
-                </p>
-            </div>
+  return (
+    <div className="flex flex-col lg:flex-row justify-center items-start p-4 lg:p-10">
+      {/* Left Side: Overlapping Image*/}
+      <div className="relative lg:w-1/2 flex flex-col items-center lg:items-start">
+        <div className="w-64 lg:w-72 mb-8 relative z-10">
+          <img
+            src="/images/heroImg1.webp"
+            alt="Image One"
+            className="rounded-lg shadow-md"
+          />
         </div>
-    );
-}
+        <div className="w-64 lg:w-72 lg:-mt-10 ml-10 lg:ml-14 transform translate-x-6 lg:translate-x-12 relative z-20">
+          <img
+            src="/images/heroImg1.webp"
+            alt="Image Two"
+            className="rounded-lg shadow-md"
+          />
+        </div>
+        <div className="w-64 lg:w-72 mt-12 sm:mt-7 lg:-mt-8 relative z-10">
+  <img
+    src="/images/heroImg1.webp"
+    alt="Image Three"
+    className="rounded-lg shadow-md"
+  />
+</div>
+
+      </div>
+
+      {/* Right Side: Title, Subtitle, and Paragraphs */}
+      <div className="lg:w-1/2 lg:pl-16 mt-10 lg:mt-0">
+      <div className="sm:text-center lg:text-left">
+          <h5 className="text-3xl font-bold mb-4">Our Story...........</h5>
+          <h3 className="text-2xl text-teal-700 font-semibold mb-6">
+            About Fortrust Digital Consulting
+          </h3>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel orci blandit vivamus urna. Nunc laoreet laoreet massa at. Urna sem nam in sit sed vitae. Convallis lectus id est pretium morbi sit adipiscing. Pellentesque tellus sit enim elementum scelerisque gravida nec. Diam orci nibh ultrices eget accumsan dui luctus id auctor.
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          Arcu leo sagittis aenean feugiat mattis porttitor eros elit risus. Lobortis non nec in amet urna. Neque donec aliquam vivamus viverra morbi. Donec orci sit amet est velit ultricies nisl lorem. Rutrum nunc natoque diam sed curabitur in donec turpis enim Aenean faucibus auctor sagittis ornare ac sapien.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          Laoreet aenean porta convallis amet pellentesque porttitor odio dui. Erat sit platea vitae in parturient egestas etiam. Ornare vitae orci maecenas adipiscing dolor facilisis habitasse mattis. Eget magna neque eget eleifend velit viverra sem praesent ultricies. Facilisi diam luctus tortor fusce parturient proin nulla.
+        </p>
+        
+      </div>
+    </div>
+  );
+};
 
 export default Story;
