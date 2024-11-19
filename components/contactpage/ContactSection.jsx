@@ -13,7 +13,7 @@ const ContactSection = () => {
         {/* Card 1: Phone Number */}
         <div className="flex-1 bg-white shadow rounded p-4 border border-gray-200 text-center">
           <h3 className="text-base sm:text-lg font-semibold text-teal-700 mb-1">Phone Number</h3>
-          <p className="text-gray-600">+123 456 7890</p>
+          <p className="text-gray-600">+123 456 7590</p>
         </div>
 
         {/* Card 2: Email */}
