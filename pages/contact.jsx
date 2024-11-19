@@ -10,7 +10,7 @@ const ContactPage = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col mt-16 md:mt-16 pb-4 items-center">
+      <div className="flex flex-col mt-16 sm:-mt-32 md:mt-16 pb-4 items-center">
         {/* Centered Title and Paragraph */}
         <div className="text-center mb-8 px-4 w-full max-w-5xl">
           <h1 className="text-3xl font-bold text-teal-700">Contact Us</h1>

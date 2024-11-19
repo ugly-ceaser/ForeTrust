@@ -4,7 +4,7 @@ import AcademyForm from './AcademyForm';
 
 const AcademyContact = () => {
   return (
-    <section className="flex flex-col md:flex-row items-start justify-center p-4 md:p-8 bg-gray-50 min-h-screen space-y-8 md:space-y-0 md:space-x-8">
+    <section className="flex flex-col md:flex-row items-start justify-center p-4 md:p-8 bg-gray-50 min-h-[90vh] space-y-8 md:space-y-0 md:space-x-8">
       {/* Left Section - Contact Details */}
       <div className="w-full md:w-1/2 space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl text-left md:mb-5 font-bold text-teal-700">
@@ -54,7 +54,7 @@ const AcademyContact = () => {
       </div>
       
       {/* Right Section - Contact Form */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full xl:w-full md:w-1/2">
         <AcademyForm />
       </div>
     </section>

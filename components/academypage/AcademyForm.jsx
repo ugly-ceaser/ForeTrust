@@ -2,8 +2,8 @@ import React from 'react';
 
 const AcademyForm = () => {
   return (
-   
-      <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 border border-gray-200">
+    <div className="flex justify-center">
+      <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 xl:p-15 border border-gray-200 mx-auto"> {/* Added mx-auto */}
         <form className="space-y-4">
           {/* Name */}
           <div>
@@ -91,8 +91,8 @@ const AcademyForm = () => {
           </div>
         </form>
       </div>
-
+    </div>
   );
-}
+};
 
 export default AcademyForm;
