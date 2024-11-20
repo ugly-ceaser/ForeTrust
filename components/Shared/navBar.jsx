@@ -47,19 +47,21 @@ const Navbar = () => {
               Services
             </Link>
           </li>
-          <li className="md:ml-8 text-xl md:my-0 my-7">
+          {/* <li className="md:ml-8 text-xl md:my-0 my-7">
             <Link href="/resource" className="text-gray-800 hover:text-blue-600">
               Resources
             </Link>
-          </li>
-          <li className="md:ml-8 text-xl md:my-0 my-7">
-            <Link href="/contact" className="text-gray-800 hover:text-blue-600">
-              Contact Us
-            </Link>
-          </li>
+          </li> */}
+          
           <li className="md:ml-8 text-xl md:my-0 my-7">
             <Link href="/academy" className="text-gray-800 hover:text-blue-600">
               Our Academy
+            </Link>
+          </li>
+
+          <li className="md:ml-8 text-xl md:my-0 my-7">
+            <Link href="/contact" className="text-gray-800 hover:text-blue-600">
+              Contact Us
             </Link>
           </li>
         </ul>
