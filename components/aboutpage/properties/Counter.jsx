@@ -4,7 +4,7 @@ import count from '../css/count.module.css';
 
 const Counter = () => {
   return (
-    <div className={`${count.count} px-6 py-12 md:px-16 lg:px-40`}>
+    <div className={`${count.count} w-full px-6 py-12 md:px-16 lg:px-40`}>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
         <div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white">

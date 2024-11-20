@@ -4,6 +4,7 @@ import Button from '@/components/Shared/Buttons';
 
 const Hero = () => {
   return (
+
     <div className={`${hero.container} flex flex-col items-center text-center px-4 py-10 sm:py-20`}>
       {/* Title */}
       <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 leading-tight">
@@ -24,15 +25,18 @@ const Hero = () => {
         className="mt-4 sm:mt-6 text-white bg-teal-500 hover:bg-teal-700 px-6 py-3 rounded-md"
       />
 
-      {/* Image (not centered) */}
-      <div className="mt-8 w-full flex justify-center lg:justify-start">
+      {/* Image (height: 50vh) */}
+      <div className="mt-8 w-full">
         <img
           src="/images/heroImg1.webp"
           alt="ForeTrust Digital Consulting"
-          className="w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-5xl object-cover rounded-lg lg:rounded-xl shadow-lg"
+          className="w-full h-[50vh] object-cover rounded-lg lg:rounded-xl shadow-lg"
         />
       </div>
     </div>
+
+
+
   );
 };
 
