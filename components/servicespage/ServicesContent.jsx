@@ -60,7 +60,7 @@ const ServicesContent = () => {
     <div className="p-8">
       {/** Title Section */}
       <div className="text-center mb-10">
-        <h1 className="text-teal-700 text-3xl lg:text-[3rem] font-bold">
+        <h1 className="hidden md:text-teal-700 md:text-3xl lg:text-[3rem] font-bold">
           Our Services
         </h1>
       </div>
